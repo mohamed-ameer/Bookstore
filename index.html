@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book store</title>
+    <link rel="icon" href="imgs/book-open-reader-solid.svg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   <section class="title text-center pt-4 pb-4 container bg-tan text-white rounded-bottom">
+        <h1><i class="fa-solid fa-book-open-reader"></i> Book Store</h1>
+   </section>
+   <section class="input mt-5">
+        <div class="container">
+            <div class="d-flex w-50 m-auto mb-4">
+                <span class="d-flex justify-content-center align-items-center rounded-start"><i class="fa-solid fa-book fa-sm"></i></span>
+                <input  id="bookname" type="text" placeholder="Enter book name" class="form-control border-start-0 rounded-0 rounded-end ">
+            </div>
+            <div class="d-flex w-50 m-auto mb-4">
+                <span class="d-flex justify-content-center align-items-center rounded-start"><i class="fa-solid fa-user-pen fa-sm"></i></span>
+                <input  id="bookauthor" type="text" placeholder="Enter the puplisher" class="form-control border-start-0 rounded-0 rounded-end ">
+            </div>
+            <div class="d-flex w-50 m-auto mb-4">
+                <span class="d-flex justify-content-center align-items-center rounded-start"><i class="fa-solid fa-circle-dollar-to-slot fa-sm"></i></span>
+                <input  id="bookprice" type="number" placeholder="Enter book price" class="form-control border-start-0 rounded-0 rounded-end ">
+            </div>
+            <div class="d-flex w-50 m-auto mb-4">
+                <span class="d-flex justify-content-center align-items-center rounded-start"><i class="fa-solid fa-layer-group fa-sm"></i></span>
+                <input  id="bookquantity" type="number" placeholder="Enter number of available books" class="form-control border-start-0 rounded-0 rounded-end ">
+            </div>
+            <div class="d-flex w-50 m-auto justify-content-center">
+                <button id="addbookbtn" type="button" class="btn btn-success ">Add</button>
+            </div>
+            <div class="d-flex w-50 m-auto mb-4 mt-4">
+                <span class="d-flex justify-content-center align-items-center rounded-start"><i class="fa-solid fa-percent fa-sm"></i></span>
+                <input  id="bookdiscount" type="number" placeholder="Enter percent of discount %" class="form-control border-start-0 rounded-0 rounded-end ">
+            </div>
+            <div class="d-flex w-50 m-auto justify-content-center">
+                <button id="adddiscountbtn" type="button" class="btn btn-primary ">Add discount</button>
+            </div>
+
+        </div>
+   </section>
+   <section class="display mt-5">
+    <div class="container">
+        <div class="w-50 m-auto mb-4">
+            <input id="searchinput" type="text" class="form-control" placeholder="Type to search...">
+        </div>
+        <table class="table w-75 m-auto text-center text-white">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Book Name</th>
+            <th scope="col">Puplisher</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+        </table>
+    </div>
+   </section> 
+
+    <script src="js/bootstrap.bundle.min.js"></script>   
+    <script src="js/main.js"></script> 
+</body>
+</html>

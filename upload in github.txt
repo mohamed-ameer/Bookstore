@@ -1,0 +1,64 @@
+#summary
+1-git init
+2-git config --global core.autocrlf false
+3-git config --global user.email "you@example.com"
+4-git config --global user.name "Your Name"
+5-git add .
+6-git commit -m "اي كومينت"
+7-git remote add origin https://github.com/mohamed-ameer/college.git
+8-git push -u origin master
+============================
+1-git init
+2-git add .
+3-git commit -m "اي كومينت"
+4-git remote add origin https://github.com/mohamed-ameer/college.git
+5-git push -u origin master
+
+#############################################
+Uploading Files To GitHub Quick Start Guide:
+[https://www.youtube.com/watch?v=qMck70tLDuo&ab_channel=DennisIvy]
+
+(the summary):
+1-روح جوا الفولدر اللي جواه الملفات او الفولدرات اللي عايز ترفعها
+2-cmd روح امسح الباث فوق واكتب 
+3->>git init
+4->>git status    ====>[عشان تشوف ايه الملفات اللي هتترفع مش اكتر]
+5->>git add .     
+6->>git commit -m "اي كومينت"
+7-git status (تاني commit اتاكد ان مفيش )
+8-git remote add origin https://github.com/mohamed-ameer/college.git
+9-git push -u origin master
+
+#############################################
+1-rightclick + open git bash
+2-git init
+3-git status
+4-git config --global core.autocrlf false
+5-git add .(لو الملف كبير استني حبه)
+6-git commit -m "اي كومينت"
+7-git status (تاني commit اتاكد ان مفيش )
+8-git remote add origin https://github.com/mohamed-ameer/college.git
+9-git push -u origin master
+******************************************
+LF will be replaced by CRLF in git:
+4-git config --global core.autocrlf false
+******************************************
+Solved: Git please tell me who you are error | How to Configure Username & Email using Git Bash[https://www.youtube.com/watch?v=dRNcbhx2698&ab_channel=JavaTCoding]
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config --list 
+******************************************
+6-git commit -m "اي كومينت"
+7-git status (تاني commit اتاكد ان مفيش )
+8-git remote add origin https://github.com/mohamed-ameer/college.git
+9-git push -u origin master
+
+##################################################
+##################################################
+GITHUP UPDATE
+##################################################
+##################################################
+git add .
+git commit -m "update"
+git push

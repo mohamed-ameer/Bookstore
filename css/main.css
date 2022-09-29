@@ -1,0 +1,26 @@
+body{
+    background-color: #fbfbf9;
+}
+.btn-yellow{
+    color: orange;
+}
+.btn-red{
+    color: rgb(235, 55, 55);
+}
+.bg-tan{
+    background-color: #2b2b2b;
+}
+table{
+    background-color: #303030;
+}
+input{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.title h1,i{
+    font-size:50px;
+}
+.input span{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+}
