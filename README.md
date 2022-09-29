@@ -1,0 +1,1 @@
+![CRUD]{screenshots/bookstore.png}
