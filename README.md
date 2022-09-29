@@ -1,1 +1,1 @@
-![CRUD]{screenshots/bookstore.png}
+![CRUD!](screenshots/bookstore.png)
